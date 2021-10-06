@@ -1,0 +1,29 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background: linear-gradient(45deg, black, blue);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 4px solid transparent;
+    border-image: linear-gradient(45deg, yellow, pink, blue, cyan,black,red  );
+    border-image-slice: 1;
+
+} 
+div{
+    color: yellow;
+}
+
+ 
